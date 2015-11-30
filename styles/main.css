@@ -1,19 +1,22 @@
 body {
   margin: 0px;
-  height: 5100px;
   background: -webkit-linear-gradient(#cffffd, #dae5ff, #f1cdff, #f7dcff, #ffcddd, #ffc0c0); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#cffffd, #dae5ff, #f1cdff, #f7dcff, #ffcddd, #ffc0c0); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#cffffd, #dae5ff, #f1cdff, #f7dcff, #ffcddd, #ffc0c0); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#cffffd, #dae5ff, #f1cdff, #f7dcff, #ffcddd, #ffc0c0); /* Standard syntax (must be last) */
 }
 
-p {
-  margin: 0px;
+
+.slider{
+
+  padding: 8em;
 }
+
 
 #title{
 
   min-height: 1000px;
+  text-align: center;
 }
 
 #intro{
