@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+  height: 5100px;
+  background: -webkit-linear-gradient(#cffffd, #dae5ff, #f1cdff, #f7dcff, #ffcddd, #ffc0c0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#cffffd, #dae5ff, #f1cdff, #f7dcff, #ffcddd, #ffc0c0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cffffd, #dae5ff, #f1cdff, #f7dcff, #ffcddd, #ffc0c0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cffffd, #dae5ff, #f1cdff, #f7dcff, #ffcddd, #ffc0c0); /* Standard syntax (must be last) */
+}
+
+p {
+  margin: 0px;
+}
+
+#title{
+
+  min-height: 1000px;
+}
+
+#intro{
+
+  min-height: 600px;
+}
+
+#breathe{
+
+  min-height: 800px;
+}
+
+
+#breatheObject {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: purple;
+    border-radius: 100%;
+  }
+
+  15% {
+    transform: scale(.3);
+  }
+
+
+  100% {
+    transform: scale(1.5);
+    background-color: lightblue;
+  }
+}
+
+#garden{
+
+  min-height: 1000px;
+}
+
+#meditate{
+
+  min-height: 1000px;
+}
+
+#resources{
+
+  min-height: 600px;
+}
+
+footer{
+
+  min-height: 100px;
+
+}
+
+.text{
+  opacity: 0;
+}
+
+#rockGarden{
+  width:400px;
+  height:400px;
+  background-color: #333;
+}
