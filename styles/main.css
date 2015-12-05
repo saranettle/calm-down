@@ -12,21 +12,28 @@ body {
   padding: 8em;
 }
 
+h1, h2{
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+#title p {
+  font-family: 'Press Start 2P', sans-serif;
+}
 
 #title{
-
-  min-height: 1000px;
+  padding-top: 25em;
+  min-height: 800px;
   text-align: center;
 }
 
 #intro{
 
-  min-height: 600px;
+  min-height: 400px;
 }
 
 #breathe{
 
-  min-height: 800px;
+  min-height: 700px;
 }
 
 
@@ -53,25 +60,25 @@ body {
     border-radius: 100%;
   }
 
-  15% {
+  10% {
     transform: scale(.3);
   }
 
 
   100% {
-    transform: scale(1.5);
+    transform: scale(1.0);
     background-color: lightblue;
   }
 }
 
 #garden{
 
-  min-height: 1000px;
+  min-height: 800px;
 }
 
 #meditate{
 
-  min-height: 1000px;
+  min-height: 800px;
 }
 
 #resources{
@@ -80,17 +87,54 @@ body {
 }
 
 footer{
-
+text-align: center;
   min-height: 100px;
+  background-color: #FFF;
+  opacity: 0.5
 
 }
 
+
+
 .text{
   opacity: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #rockGarden{
   width:400px;
   height:400px;
   background-color: #333;
+}
+
+#resourceButtons{
+  list-style: none;
+
+}
+
+
+#plantButton {
+  display: block;
+  text-align: center;
+  margin: 3em 0em;
+  padding: 1em;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 0.8em;
+  background-color: #FFF;
+  height: 50px;
+  width: 300px;
+  border-radius: 15%;
+}
+
+#resourceButtons li{
+  display: block;
+  text-align: center;
+  margin: 3em 0em;
+  padding: 1em;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 0.8em;
+  background-color: #FFF;
+  height: 50px;
+  width: 300px;
+  border-radius: 15%;
 }
